@@ -12,7 +12,8 @@ homepage = "https://github.com/bbqsrc/cucumber-rust"
 edition = "2018"
 
 [dependencies]
-gherkin = { package = "gherkin_rust", version = "0.8.1" }
+# 0.8.1
+gherkin = { package = "gherkin_rust", git = "https://github.com/BerhorShadowbuckle/gherkin-rust", branch = "support_tabs_as_an_indentation" }
 
 async-stream = "0.3.0"
 async-trait = "0.1.40"
