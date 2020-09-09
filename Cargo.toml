@@ -13,7 +13,7 @@ edition = "2018"
 
 [dependencies]
 # 0.8.1
-gherkin = { package = "gherkin_rust", git = "https://github.com/BerhorShadowbuckle/gherkin-rust", branch = "support_tabs_as_an_indentation" }
+gherkin = { package = "gherkin_rust", git = "https://github.com/BerhorShadowbuckle/gherkin-rust", branch = "allow_background_to_be_placed_in_rules" }
 
 async-stream = "0.3.0"
 async-trait = "0.1.40"
